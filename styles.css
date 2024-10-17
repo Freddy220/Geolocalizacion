@@ -1,0 +1,119 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d4a017; /* Fondo color mostaza */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Usa todo el alto de la ventana del navegador */
+}
+
+/* Contenedor principal */
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.result div {
+  margin-bottom: 10px;
+}
+
+.result span {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Diseño para la presentación de datos */
+.result-data {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-data div {
+  margin: 10px 0;
+ 
+}
+
+.result-data .label {
+  font-weight: bold;
+  color: #777;
+}
+
+.result-data .value {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilo del mapa */
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100%; /* Ancho completo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer .map {
+  width: 100%;
+}
+.hedaer_desc{
+  text-align: center;
+}
