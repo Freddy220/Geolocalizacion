@@ -1,8 +1,4 @@
 
-
-
-
-
 const search_form = document.querySelector(".header_form");
 
 search_form.addEventListener("submit", (event) => {
@@ -91,6 +87,10 @@ fetch('http://localhost:3000/api/location/8.8.8.8')
     // Aquí puedes pasar los datos al mapa
   })
   .catch(error => console.error('Error:', error));
+
+
+
+
 
 
 
